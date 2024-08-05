@@ -1,15 +1,15 @@
-# Tools #
+# Tools
 
-Tools for building and maintaining the Rabbagast software.
+Tools for building and maintaining the GeoSoft software.
 
 
 
-### Setup ###
+### Setup
 
 Capture the tools module to local disk by:
 
 ```
-$ git clone https://<user>[:<password>]@github.com/rabbagast/tools --branch <branch-name>
+$ git clone https://<user>[:<password>]@github.com/geosoft-as/tools --branch <branch-name>
 ```
 
 
