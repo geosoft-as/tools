@@ -14,14 +14,14 @@ $ git clone https://<user>[:<password>]@github.com/geosoft-as/tools --branch <br
 
 
 
-### Make ###
+### Make
 
 [Make](https://www.gnu.org/software/make) s a tool which controls the generation of
 executables and other non-source files of a program from the program's source files.
 
 The present make setup consists of Makefiles on three levels examplified by:
 
-* `cc/src/com/rabbagast/cc/event/Makefile` - List source of this package
+* `cc/src/no/geosoftt/cc/event/Makefile` - List source of this package
 * `cc/Makefile` - List packages of this module + module jar dependencies
 * `tools/Make/Makefile` - Main makefile containing build logic - Not normally touched!
 
@@ -85,12 +85,12 @@ through main, see the present Makefile.
 
 
 
-### JUnit ###
+### JUnit
 
 TODO
 
 
-### Doxygen ###
+### Doxygen
 
 Doxygen is for making API documentation on .Net projects.
 Build .Net documentation by:
@@ -107,7 +107,7 @@ $ make doc
 
 
 
-### Launch4J ###
+### Launch4J
 
 [Launch4](Jhttp://launch4j.sourceforge.net/) is a system fro creating an MS/Windows
 executable (.exe file) from an executable Jar file and its dependecies.
@@ -122,7 +122,7 @@ $ make exe
 
 
 
-### Inno Setup ###
+### Inno Setup
 
 [Inno Setup](http://www.jrsoftware.org) is a system for creating MS/Windows
 installer files from a set of application files.
@@ -137,13 +137,13 @@ $ make setup
 
 
 
-### ProGuard ###
+### ProGuard
 
 TODO
 
 
 
-### cloc ###
+### cloc
 
 [cloc](https://github.com/AlDanial/cloc) is a tool for counting number of lines
 of code (LOC) in a subtree.
@@ -154,3 +154,7 @@ cloc can be conveniently invoked by `make` through:
 $ make loc
 ```
 
+
+### APIdoc
+
+TODO
