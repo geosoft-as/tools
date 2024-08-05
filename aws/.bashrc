@@ -13,6 +13,6 @@ fi
 # export SYSTEMD_PAGER=
 
 #
-# In Petroware we prefer tcsh
+# In GeoSoft we prefer tcsh
 #
 tcsh -i

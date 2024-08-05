@@ -1,4 +1,4 @@
-setenv DEV_HOME $HOME/Development/dev
+setenv DEV_HOME $HOME/dev
 setenv JAVA_HOME /usr/java/jdk1.8.0_141
 setenv IS_UNIX true
 
