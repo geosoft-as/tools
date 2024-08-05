@@ -1,0 +1,108 @@
+# ------------------------------------------------------------------------------
+#
+# GeoSoft (C) 2022
+#
+# Author: Jacob Dreyer
+#
+# Global .gitignore included for all repositories system wide.
+# Should include all files created by particular editors, IDEs, operating
+# systems, etc., that do not belong in the .gitignore of a repository.
+#
+# Tell git where this global ignore file is:
+#
+#   $ git config --global core.excludesFile %DEV_HOME%/tools/Git/.gitignore_global
+#
+# or edit ~/.gitconfig directly:
+#
+#   :
+#   [core]
+#     excludesFile = C:/Users/jacob/Development/repos/tools/Git/.gitignore_global
+#   :
+#
+# Note that ~/.gitconfig can not evaluate environment variables!
+#
+# ------------------------------------------------------------------------------
+
+#
+# Gradle
+#
+.gradle/
+build/
+
+#
+# Maven
+#
+target/
+
+#
+# IntelliJ
+#
+*.iml
+*.iws
+*.ipr
+.idea/
+
+#
+# Eclipse
+#
+.settings/
+.classpath
+.project
+
+#
+# NetBeans
+#
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+#
+# GNU/Make
+#
+obj/
+docs/
+
+#
+# JUnit
+#
+testreports/
+
+#
+# Vaadin
+#
+.npmrc
+frontend/
+node_modules/
+package.json
+pnpm-lock.yaml
+pnpmfile.js
+target/
+tsconfig.json
+types.d.ts
+webpack.config.js
+webpack.generated.js
+
+#
+# Tomcat
+#
+tomcat*/
+
+#
+# GNU/Make / Gradle
+#
+obj/
+objtest/
+
+#
+# Javadoc / Doxygen
+#
+docs/
+
+#
+# Temporary files
+#
+*~

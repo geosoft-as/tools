@@ -1,0 +1,55 @@
+#
+# GeoSoft (C) - 2022
+#
+# Common tcshrc file for Rabbagast development.
+# Source it by creating $HOME/.tcshrc with this content:
+#
+# source "$DEV_HOME/tools/tcshrc"
+#
+
+#
+# Windows: This doesn't seem to take effect unless
+# set as a system environment variable.
+#
+setenv CYGWIN nodosfilewarning
+
+setenv GREP_COLOR '47;01;30'
+
+if (! ($?IS_UNIX)) then
+  alias make $DEV_HOME/tools/Make/gnumake-4.2.1.exe
+endif
+
+set autologout = 0
+
+#if ($?edit) then
+  alias ccat "src-hilite-lesspipe.sh \!*"
+  alias clear "echo -ne \\033c"
+
+  alias ls "ls -F"
+  alias ll "ls -lA"
+  alias m "less"
+  alias .. "cd .."
+  alias . "pwd"
+  alias g "grep --color=auto"
+  alias gi "grep --color=auto -i"
+  alias killdir "rm -fR"
+  alias ffile 'bash -c "find . -type f -name \!* 2>/dev/null"'
+  alias fdir 'bash -c "find . -type d -name \!* -print 2>/dev/null"'
+  alias gr 'grep --include="\!:2" -nRHI "\!:1"'
+  alias xxx 'echo $2 $3'
+
+  bindkey -k up history-search-backward
+  bindkey -k down history-search-forward
+
+  set prompt = "%{\033[1;34m%}%C2>%{\033[0m%} "
+
+  alias dev "cd $DEV_HOME"
+  alias cc  "cd $DEV_HOME/common/src/com/rabbagast/common"
+
+  alias paint mspaint
+  alias xv mspaint
+  alias open cygstart
+
+  cd
+endif
+

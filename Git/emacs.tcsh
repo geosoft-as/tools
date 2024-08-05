@@ -1,0 +1,1 @@
+eval '"C:/Program Files/emacs-22.3/bin/runemacs.exe" -wait' ./.git/COMMIT_EDITMSG

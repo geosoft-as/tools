@@ -1,0 +1,23 @@
+#
+# Copy this file to ~/.gitconfig
+#
+[user]
+	email = jacob.dreyer@geosoft.no
+	name = rabbagast
+[core]
+	editor = 'C:\\Program Files (x86)\\emacs-23.1\\bin\\runemacs.exe' --wait
+	safecrlf = false
+	excludesFile = C:/Users/jacob/Development/repos/tools/Git/.gitignore_global
+        repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+        pager = cat
+[credential]
+	helper = wincred
+[credential "https://github.com"]
+        username = rabbagast
+[pager]
+        diff = false

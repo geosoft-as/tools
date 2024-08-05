@@ -1,0 +1,5 @@
+# Linux: Add this to the existing .profile or create one
+
+export DEV_HOME=$HOME/Development/repos
+export JAVA_HOME=<path here>
+export IS_UNIX=true

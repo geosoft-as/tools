@@ -1,0 +1,5 @@
+setenv DEV_HOME $HOME/Development/dev
+setenv JAVA_HOME /usr/java/jdk1.8.0_141
+setenv IS_UNIX true
+
+source "$DEV_HOME/tools/tcshrc"

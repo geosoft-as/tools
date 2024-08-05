@@ -1,0 +1,7 @@
+#
+# Gradle produce these when main.gradle is invoked
+#
+Gradle/caches/
+Gradle/daemon/
+Gradle/native/
+Gradle/notifications/

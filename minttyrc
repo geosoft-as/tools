@@ -1,0 +1,50 @@
+#
+# See https://mintty.github.io/mintty.1.html#CONFIGURATION
+#
+# Copy this file as $HOME/.minttyrc
+#
+# Launch as target: C:\cygwin64\bin\mintty.exe /usr/bin/tcsh.exe -l
+#
+
+#
+# Geometry
+#
+Columns=100
+Rows=28
+
+#
+# Color
+#
+BackgroundColour=255,255,225
+ForegroundColour=0,0,0
+Blue=0,0,200
+BoldBlue=0,0,255
+
+#
+# Transparency
+#
+Transparency=Off
+OpaqueWhenFocused=Yes
+
+#
+# Font
+#
+Font=Fixedsys
+FontHeight=11
+FontSmoothing=Full
+
+#
+# Cursor
+#
+CursorType=Block
+CursorBlinks=No
+
+#
+# Locale
+#
+Locale=en_US
+
+#
+# Character set
+#
+Charset=ISO-8859-1
