@@ -1,5 +1,5 @@
 setenv DEV_HOME $HOME/dev
-setenv JAVA_HOME /usr/java/jdk1.8.0_141
+setenv JAVA_HOME /usr/lib/jvm/java-17-amazon-corretto.x86_64/bin/
 setenv IS_UNIX true
 
 source "$DEV_HOME/tools/Tcsh/tcshrc"
