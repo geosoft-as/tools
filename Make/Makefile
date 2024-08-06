@@ -220,12 +220,12 @@ JavadocOptions         = -d $(DocsDir) \
 			 -use \
 			 -splitIndex \
 			 -version \
-			 -linkoffline https://docs.oracle.com/javase/8/docs/api/ https://docs.oracle.com/javase/8/docs/api/ \
+			 -linkoffline https://docs.oracle.com/en/java/javase/17/docs/api/ https://docs.oracle.com/en/java/javase/17/docs/api/ \
 			 -windowtitle "$(ProjectDisplayName)" \
 			 -doctitle "$(ProjectDisplayName) - $(ThisMonth)" \
 			 -header "$(ProjectDisplayName)" \
 			 -bottom '<font size="-1">Copyright &copy; 2024 GeoSoft - <a href="https://geosoft.no">https://geosoft.no<a></font>' \
-			 -overview $(ProjectDir)/overview.html
+			 -overview $(ProjectDir)/overview.html \
 
 JSDocOptions           = --destination $(DocsDir) \
 	                 --recurse \
