@@ -64,7 +64,6 @@ nb-configuration.xml
 # GNU/Make
 #
 obj/
-docs/
 
 #
 # JUnit
@@ -100,7 +99,7 @@ objtest/
 #
 # Javadoc / Doxygen
 #
-docs/
+#docs/
 
 #
 # Temporary files
